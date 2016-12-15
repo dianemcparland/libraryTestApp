@@ -2,6 +2,7 @@
  * Created by N0134511 on 11/29/2016.
  */
 var express = require('express');
+var portGitHub = 6000;
 
 var app = express();
 var port = process.env.port || 5000;
