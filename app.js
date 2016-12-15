@@ -12,6 +12,7 @@ var nav = [{
 var bookRouter = require('./src/routes/bookRoutes')(nav);
 var adminRouter = require('./src/routes/adminRoutes')(nav);
 
+var github = 'higithub';
 app.use(express.static('public'));
 app.set('views', 'src/views');
 
